@@ -31,7 +31,7 @@ that follows immediately after the element with an
 id of ball (using adjacent sibling selector) */
 
 /*    <div id="ball"></div>
-    <img src="images/kitty-4.png" alt="kitty 4">*/ #ball+.img {
+    <img src="images/kitty-4.png" alt="kitty 4">*/ #ball+[img] {
   position: absolute;
   z-index: 4;
   top: 260px;
